@@ -1,4 +1,4 @@
-function send(input){
+var send = function(input){
   var sendData = {
       key: "password123",
       data: input
@@ -18,4 +18,4 @@ function send(input){
        alert(e.responseText);
      }
  });
-}
+};
