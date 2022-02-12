@@ -1,4 +1,3 @@
-<script>
 function send(input){
   var sendData = {
       key: "password123",
@@ -20,4 +19,3 @@ function send(input){
      }
  });
 }
-</script>
